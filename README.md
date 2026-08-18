@@ -23,9 +23,11 @@ This project requires you to implement two programs: mbot_driver and lidar_drive
 The objective of the third project is to develop a full publish/subscribe system to enable asynchronous streaming of messages between nodes via topics. You will implement the core functionality of the Robot Interprocess eXchange (RIX), which consists of 4 classes: Node, Publisher, Subscriber, and Mediator.
 
 **Project 4: Forward Kinematics**
+<img width="586" height="296" alt="Screenshot 2026-08-18 at 3 06 48 PM" src="https://github.com/user-attachments/assets/396e15e9-d40b-45a3-96bb-de7486a6bbd7" />
 The objective of the fourth project is to develop a library that enables the efficient distribution of and transformation between coordinate frames. You will use a textual description of a robot (JRDF, which has all of the rules of URDF but is formatted as JSON rather than XML), to determine the geometric relationships between the links and joints that comprise a robot. A link is a rigid body with inertia, visual features, and collision properties. A joint represents the kinematic relationship between two links, often a rotation (revolute or continuous joint) or a translation (prismatic joint). In this project, the geometric relationships among links and joints are represented as 3D homogenous transformations. You will use the Eigen Geometry library for all linear algebra operations in this project.
 
 **Project 5: Inverse Kinematics**
+<img width="833" height="455" alt="Screenshot 2026-08-18 at 3 04 52 PM" src="https://github.com/user-attachments/assets/c1548acb-c8be-4a72-bb54-dabc5d4053e7" />
 The objective of the fifth project is to implement inverse kinematics using Gauss-Newton method. To do this, you must compute the geometric Jacobian for a serial chain robot and use the Moore-Penrose pseudoinverse of the Jacobian for iterative optimization. There is only a single interface that you are responsible for implementing in this project: KinematicsSolver. 
 
 The KinematicsSolver class provides methods to solve forward kinematics and inverse kinematics problems using numerical methods. You will implement four key methods in kinematics_solver.cpp:
@@ -34,3 +36,8 @@ solve_fk - Forward kinematics
 get_jacobian - Jacobian matrix computation
 iterate_ik - Single iteration of inverse kinematics using Gauss-Newton
 solve_ik (two overloads) - Complete inverse kinematics solver
+
+
+
+
+
