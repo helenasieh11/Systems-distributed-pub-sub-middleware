@@ -13,7 +13,7 @@ This project requires you to implement two programs: mbot_driver and teleop_keyb
 
 **Project 2: Click to Drive**
 - [Drive Robot Demo](https://drive.google.com/file/d/1oqbRiV8SvDKO9LbilTiHVXMh3R_q4KB3/view?usp=sharing)
-- [Drive Terminal Demo](https://drive.google.com/drive/folders/1WmVmzWN5fuUodPaa7Jd4UNYNvwlNgh0G)
+- [Drive Terminal Demo](https://drive.google.com/drive/folders/1WmVmzWN5fuUodPaa7Jd4UNYNvwlNgh0G)(https://drive.google.com/drive/folders/1WmVmzWN5fuUodPaa7Jd4UNYNvwlNgh0G)
 
 The objective of the second project is to implement driver programs to enable a click to drive graphical user interface (GUI) running on your local machine to stream laser range and odometry data from and send position commands to the MBot. This will be accomplished by using sockets to communicate over a wireless network using TCP.
 
