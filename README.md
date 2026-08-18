@@ -6,6 +6,7 @@ Below are some of the projects that I worked on in this class. These projects ra
 **Project 1: Teleop Keyboard**
 - [Teleop Robot Demo](https://drive.google.com/file/d/1JDO_9i6iPOjwlvE_qn_iKzP-hK8aV8kA/view?usp=sharing)
 - [Teleop Terminal Demo](https://drive.google.com/file/d/1JDO_9i6iPOjwlvE_qn_iKzP-hK8aV8kA/view?usp=sharing)
+
 The objective of the first project is to implement a command line interface (CLI) for keyboard teleoperation of the MBot Omni. Once complete, a user should be able to drive the MBot using the WASD keys to move forward, left, right, and backwards, the QE keys to rotate counter-clockwise and clockwise, and the spacebar to stop.
 
 This project requires you to implement two programs: mbot_driver and teleop_keyboard. The mbot_driver program will read drive commands from stdin and forward them to the MBot Control Board via USB. This program is designed to interface with the other two programs using unnamed pipes from the command line. The teleop_keyboard program will open a named pipe (FIFO) for parsing keyboard input. It will read individual characters from the FIFO and convert them into drive commands. To write characters to the FIFO, use executables such as echo or tee.
@@ -13,6 +14,7 @@ This project requires you to implement two programs: mbot_driver and teleop_keyb
 **Project 2: Click to Drive**
 - [Drive Robot Demo](https://drive.google.com/file/d/1oqbRiV8SvDKO9LbilTiHVXMh3R_q4KB3/view?usp=sharing)
 - [Drive Terminal Demo](https://drive.google.com/drive/folders/1WmVmzWN5fuUodPaa7Jd4UNYNvwlNgh0G)
+
 The objective of the second project is to implement driver programs to enable a click to drive graphical user interface (GUI) running on your local machine to stream laser range and odometry data from and send position commands to the MBot. This will be accomplished by using sockets to communicate over a wireless network using TCP.
 
 This project requires you to implement two programs: mbot_driver and lidar_driver. The mbot_driver in project 2 is very similar to project 1 in that it will interface via USB with the MBot Control Board. However, rather than receiving velocity commands via a pipe, it will host a server that will receive position commands from and send odometry data to a client that connects to it. The lidar_driver will interface with the RPLIDAR A1 and will host a server that will send laser range data to a client that connects to it. Pictured below is the click to drive GUI running successfully. Here is a link to a video demonstration of the GUI.
