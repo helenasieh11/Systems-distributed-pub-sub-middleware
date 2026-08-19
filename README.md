@@ -1,6 +1,6 @@
 # Systems-distributed-pub-sub-middleware
 
-# ROB 320 (Winter 2026): Robot Operating System:
+* ROB 320 (Winter 2026): Robot Operating System:
 Below are some of the projects that I worked on in this class. These projects range from driving in a star to wall following to developing a breadth first search path planning algorithm.
 
 **Project 1: Teleop Keyboard**
