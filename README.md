@@ -59,11 +59,15 @@ Below are some of the projects that I worked on in this class. These projects ra
 - [Bug Navigation Demo](https://drive.google.com/file/d/1i5BkDj3tiplTPPgzpDKMhSkoJJNv6JMl/view?usp=sharing)
 
 **Project 3 Path Planning**
+
 Using the wall follower algorithm, implement functionality for a GridGraph which is a grid shaped graph over which it will search. Implement the breadth first search (BFS) search algorithm on this graph. Finally, initialize a GridGraph from the robot’s SLAM map, run the algorithm to generate a path, and drive along this path. The code for initializing from the SLAM map and driving along the path is given. The focus will be on path planning via graph search.
+
 [Path Planning Demo](https://drive.google.com/file/d/1tD7yXpeFWob6sUvJ4zE0w73oueQjRw0V/view?usp=sharing)
 
 **Project 4 Robot Tour Guide**
+
 Train computer vision model to recognize handwritten digits. Then use path planning algorithm from project 3 to plan path from specific recognized digits.
+
 [Robot Tour Guide Demo](https://drive.google.com/file/d/1gf1H_tfLxHGF21J3EhD4G1wFY3L273W7/view?usp=sharing)
 
 
